@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <h1 class="header__logo">Music Today</h1>
+            <a href="#" class="header__cta">
+                Download
+            </a>
+        </nav>
+
+        <section class="slider">
+            <div class="slider__container container">
+                <img src="img/left-arrow.svg" alt="" class="slider__arrow" id="before">
+
+                <div class="slider__body slider__body--show" data-id="1">
+
+                    <figure class="slider__picture">
+                        <img src="img/Ed_Sheeran.jpg" alt="" class="slider__img">
+                    </figure>
+
+                    <div class="slider__texts">
+                        <h2 class="subtitle">Ed Sheeran</h2>
+                        <p class="slider__reviw">Ed Sheeran, es un músico y cantante británico.<br>
+                            A corta edad, comenzó a cantar en la iglesia a la que asistía y también aprendió a tocar la
+                            guitarra. <br>
+                            <strong> cancion </strong>
+                        </p>
+                    </div>
+
+                    <div class="songs">
+                        <div class="song">
+
+                            <h4 class="song__title">Happier</h4>
+                            <p class="song__letras">Pero carino, sigo enamorado de ti <br>
+                                pero supongo que eres mas feliz <br>
+                                ¿lo eres? <br>
+                                mis amigos me han dicho <br>
+                                que algun dia lo sentire tambien <br>
+                                podria sonreir para ocular la verdad <br>
+                                pero se que era mas feliz contigo. &#10084;
+                            </p>
+
+                            <audio src="audio/Ed Sheeran  Happier.mp3" controls class="song-play"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__body" data-id="2">
+                    <figure class="slider__picture">
+                        <img src="img/sofia.jpg" alt="" class="slider__img">
+                    </figure>
+
+                    <div class="slider__texts">
+                        <h2 class="subtitle">Mi nombre es Sofia</h2>
+                        <p class="slider__reviw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis
+                            id itaque omnis earum veniam repellat, repellendus tempore enim inventore. Hic, et quae
+                            aliquid consectetur modi deleniti sint nemo quaerat.</p>
+                    </div>
+                </div>
+
+                <div class="slider__body" data-id="3">
+                    <figure class="slider__picture">
+                        <img src="img/KREWELLA.jpg" alt="" class="slider__img">
+                    </figure>
+
+                    <div class="slider__texts">
+                        <h2 class="subtitle">Mi nombre es krewella</h2>
+                        <p class="slider__reviw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis
+                            id itaque omnis earum veniam repellat, repellendus tempore enim inventore. Hic, et quae
+                            aliquid consectetur modi deleniti sint nemo quaerat.</p>
+                    </div>
+                </div>
+
+                <img src="img/right-arrow.svg" alt="" class="slider__arrow" id="next">
+            </div>
+        </section>
+
+
+    </header>
+
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
